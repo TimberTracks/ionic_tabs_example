@@ -9,4 +9,12 @@ export class Tab2Page {
 
   constructor() {}
 
+  ionViewWillEnter() {
+    console.log('Tab2 will Enter.');
+  }
+
+  ionViewWillLeave() {
+    console.log('Tab2 will Leave.');
+  }
+
 }
